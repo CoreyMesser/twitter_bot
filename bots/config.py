@@ -2,14 +2,15 @@
 import tweepy
 import logging
 import os
+from bots.constants import TwitterConstants as twc
 
 logger = logging.getLogger()
 
 def create_api():
-    consumer_key = os.getenv("CONSUMER_KEY")
-    consumer_secret = os.getenv("CONSUMER_SECRET")
-    access_token = os.getenv("ACCESS_TOKEN")
-    access_token_secret = os.getenv("ACCESS_TOKEN_SECRET")
+    consumer_key = twc.CONSUMER_KEY
+    consumer_secret = twc.CONSUMER_SECRET
+    access_token = twc.ACCESS_TOKEN
+    access_token_secret = twc.ACCESS_TOKEN_SECRET
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
