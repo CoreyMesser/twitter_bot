@@ -3,7 +3,6 @@ import logging
 from bots.config import create_api
 from bots.aws_services import AWSConnection as awsc
 import time
-import boto3
 
 from bots.constants import Constants
 
@@ -77,7 +76,8 @@ def process_friends(api):
 def main():
     api = create_api()
     while True:
-        follow_followers(api)
+        # follow_followers(api)
+        process_friends(api=api)
         logger.info("Waiting...")
         time.sleep(60)
 
