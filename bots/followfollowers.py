@@ -1,15 +1,27 @@
 import tweepy
 import logging
 from bots.config import create_api
-from bots.aws_services import AWSConnection as awsc
+from bots.aws_services import AWSConnection
 import time
 
 from bots.constants import Constants
 
 logging.basicConfig(filename='twitlog.log', format='%(asctime)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger()
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+fh = logging.FileHandler('twitlog.log')
+fh.setLevel(logging.DEBUG)
+fh.setFormatter(formatter)
+logger.addHandler(fh)
+
+ch = logging.StreamHandler()
+ch.setLevel(logging.DEBUG)
+ch.setFormatter(formatter)
+logger.addHandler(ch)
 
 con = Constants()
+awsc = AWSConnection()
 
 def follow_followers(api):
     logger.info("Retrieving and following followers")
@@ -21,30 +33,34 @@ def follow_followers(api):
 
 def validate_friend(api, user):
     try:
-        api.show_friendship(user)
+        api.show_friendship(target_screen_name=user)
+        logger.info(f'{user} exists!')
         return True
     except Exception as e:
         logger.error(f"User {user} does not exist. Response {e}", exc_info=True)
-        print(f"User {user} does not exist. Response {e}")
         return False
 
 def check_friend(api,user):
-    status = api.show_friendship(user)
-    return status['relationship']['source']['following']
+    status = api.show_friendship(target_screen_name=user)
+    sta = status[0].following
+    return sta
 
 
 def make_friend(api, user):
-    api.create_friendship(screen_name=user)
+    logger.info(f'Making {user} my friend')
+    api.create_friendship(screen_name=user, follow=True)
 
 
 def update_friend(api, user):
+    logger.info(f'Muting {user}')
     api.create_mute(screen_name=user)
+
+    logger.info(f'Adding {user} to list')
     api.add_list_member(list_id=con.LIST_ID, screen_name=user)
 
 
 def get_user_list():
-    obj_list = awsc.s3_list_objects()
-    latest = awsc.s3_get_latest(obj_list=obj_list)
+    latest = awsc.s3_get_latest()
     user_list = awsc.s3_get_csv_object(latest=latest)
     return user_list
 
@@ -65,9 +81,7 @@ def process_friends(api):
                 logger.info(f'{friend} already my friend!')
                 continue
             else:
-                logger.info(f'Making {friend} my friend')
                 make_friend(api=api, user=friend)
-                logger.info(f'Muting {friend}')
                 update_friend(api=api, user=friend)
         else:
             logger.info(f'{friend} does not exist!')
@@ -75,11 +89,8 @@ def process_friends(api):
 
 def main():
     api = create_api()
-    while True:
-        # follow_followers(api)
-        process_friends(api=api)
-        logger.info("Waiting...")
-        time.sleep(60)
+    process_friends(api=api)
+    logger.info("FIN the Friending")
 
 if __name__ == "__main__":
     main()

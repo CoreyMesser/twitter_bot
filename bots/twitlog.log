@@ -1,0 +1,1100 @@
+2019-12-05 23:17:47,769 - Error creating API
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/config.py", line 20, in create_api
+    api.verify_credentials()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/api.py", line 605, in verify_credentials
+    )(**kargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2019-12-05 23:18:18,981 - Error creating API
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/config.py", line 20, in create_api
+    api.verify_credentials()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/api.py", line 605, in verify_credentials
+    )(**kargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2019-12-05 23:30:23,925 - Error creating API
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/config.py", line 20, in create_api
+    api.verify_credentials()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/api.py", line 605, in verify_credentials
+    )(**kargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 32, 'message': 'Could not authenticate you.'}]
+2019-12-05 23:45:35,814 - API created
+2019-12-05 23:45:35,815 - Starting the Friending...
+2019-12-05 23:46:55,347 - Found credentials in environment variables.
+2019-12-05 23:46:57,892 - API created
+2019-12-05 23:46:57,892 - Starting the Friending...
+2019-12-05 23:48:56,773 - Found credentials in environment variables.
+2019-12-05 23:49:02,741 - API created
+2019-12-05 23:49:02,743 - Starting the Friending...
+2019-12-05 23:55:51,656 - Found credentials in environment variables.
+2019-12-05 23:55:52,069 - API created
+2019-12-05 23:55:52,070 - Starting the Friending...
+2019-12-06 00:02:35,416 - Found credentials in environment variables.
+2019-12-06 00:02:35,893 - API created
+2019-12-06 00:02:35,894 - Starting the Friending...
+2019-12-06 00:03:11,044 - Found credentials in environment variables.
+2019-12-06 00:03:11,429 - API created
+2019-12-06 00:03:11,430 - Starting the Friending...
+2019-12-06 09:48:59,176 - Found credentials in environment variables.
+2019-12-06 09:48:59,779 - API created
+2019-12-06 09:48:59,780 - Starting the Friending...
+2019-12-06 09:49:43,046 - Found credentials in environment variables.
+2019-12-06 09:49:43,523 - API created
+2019-12-06 09:49:43,524 - Starting the Friending...
+2019-12-06 09:50:06,559 - Found credentials in environment variables.
+2019-12-06 09:50:07,023 - API created
+2019-12-06 09:50:07,025 - Starting the Friending...
+2019-12-06 09:50:33,362 - Found credentials in environment variables.
+2019-12-06 09:50:33,830 - API created
+2019-12-06 09:50:33,831 - Starting the Friending...
+2019-12-06 09:51:06,289 - Found credentials in environment variables.
+2019-12-06 09:51:06,766 - API created
+2019-12-06 09:51:06,767 - Starting the Friending...
+2019-12-06 09:56:40,337 - Found credentials in environment variables.
+2019-12-06 09:56:40,958 - API created
+2019-12-06 09:56:40,959 - Starting the Friending...
+2019-12-06 09:56:58,128 - Found credentials in environment variables.
+2019-12-06 09:56:58,590 - API created
+2019-12-06 09:56:58,591 - Starting the Friending...
+2019-12-06 09:57:20,591 - Found credentials in environment variables.
+2019-12-06 09:57:22,075 - API created
+2019-12-06 09:57:22,076 - Starting the Friending...
+2019-12-06 09:57:32,017 - Found credentials in environment variables.
+2019-12-06 09:57:32,407 - API created
+2019-12-06 09:57:32,409 - Starting the Friending...
+2019-12-06 09:57:54,274 - Found credentials in environment variables.
+2019-12-06 09:57:54,716 - API created
+2019-12-06 09:57:54,718 - Starting the Friending...
+2019-12-06 09:58:17,244 - Found credentials in environment variables.
+2019-12-06 09:58:17,695 - API created
+2019-12-06 09:58:17,698 - Starting the Friending...
+2019-12-06 10:08:05,287 - Found credentials in environment variables.
+2019-12-06 10:08:05,754 - API created
+2019-12-06 10:08:05,755 - Starting the Friending...
+2019-12-06 10:08:38,795 - Found credentials in environment variables.
+2019-12-06 10:08:39,174 - API created
+2019-12-06 10:08:39,175 - Starting the Friending...
+2019-12-06 10:12:06,759 - Found credentials in environment variables.
+2019-12-06 10:12:07,406 - API created
+2019-12-06 10:12:07,407 - Starting the Friending...
+2019-12-06 10:15:38,123 - Found credentials in environment variables.
+2019-12-06 10:15:38,123 - INFO - Found credentials in environment variables.
+2019-12-06 10:15:38,649 - API created
+2019-12-06 10:15:38,649 - INFO - API created
+2019-12-06 10:15:38,650 - Starting the Friending...
+2019-12-06 10:15:38,650 - INFO - Starting the Friending...
+2019-12-06 10:16:07,316 - Found credentials in environment variables.
+2019-12-06 10:16:07,316 - INFO - Found credentials in environment variables.
+2019-12-06 10:16:07,717 - API created
+2019-12-06 10:16:07,717 - INFO - API created
+2019-12-06 10:16:07,718 - Starting the Friending...
+2019-12-06 10:16:07,718 - INFO - Starting the Friending...
+2019-12-06 10:16:22,087 - Found credentials in environment variables.
+2019-12-06 10:16:22,087 - INFO - Found credentials in environment variables.
+2019-12-06 10:16:22,409 - API created
+2019-12-06 10:16:22,409 - INFO - API created
+2019-12-06 10:16:22,410 - Starting the Friending...
+2019-12-06 10:16:22,410 - INFO - Starting the Friending...
+2019-12-06 10:16:58,664 - Found credentials in environment variables.
+2019-12-06 10:16:58,664 - INFO - Found credentials in environment variables.
+2019-12-06 10:16:59,137 - API created
+2019-12-06 10:16:59,137 - INFO - API created
+2019-12-06 10:16:59,138 - Starting the Friending...
+2019-12-06 10:16:59,138 - INFO - Starting the Friending...
+2019-12-06 10:17:13,752 - Found credentials in environment variables.
+2019-12-06 10:17:13,752 - INFO - Found credentials in environment variables.
+2019-12-06 10:17:14,201 - API created
+2019-12-06 10:17:14,201 - INFO - API created
+2019-12-06 10:17:14,202 - Starting the Friending...
+2019-12-06 10:17:14,202 - INFO - Starting the Friending...
+2019-12-06 10:25:31,744 - Found credentials in environment variables.
+2019-12-06 10:25:31,744 - INFO - Found credentials in environment variables.
+2019-12-06 10:25:32,318 - API created
+2019-12-06 10:25:32,318 - INFO - API created
+2019-12-06 10:25:32,319 - Starting the Friending...
+2019-12-06 10:25:32,319 - INFO - Starting the Friending...
+2019-12-06 11:41:33,734 - Found credentials in environment variables.
+2019-12-06 11:41:33,734 - INFO - Found credentials in environment variables.
+2019-12-06 11:41:34,294 - API created
+2019-12-06 11:41:34,294 - INFO - API created
+2019-12-06 11:41:34,295 - Starting the Friending...
+2019-12-06 11:41:34,295 - INFO - Starting the Friending...
+2019-12-06 11:48:57,492 - Found credentials in environment variables.
+2019-12-06 11:48:57,492 - INFO - Found credentials in environment variables.
+2019-12-06 11:48:57,984 - API created
+2019-12-06 11:48:57,984 - INFO - API created
+2019-12-06 11:48:57,986 - Starting the Friending...
+2019-12-06 11:48:57,986 - INFO - Starting the Friending...
+2019-12-06 11:53:10,070 - Found credentials in environment variables.
+2019-12-06 11:53:10,070 - INFO - Found credentials in environment variables.
+2019-12-06 11:53:10,549 - API created
+2019-12-06 11:53:10,549 - INFO - API created
+2019-12-06 11:53:10,551 - Starting the Friending...
+2019-12-06 11:53:10,551 - INFO - Starting the Friending...
+2019-12-06 11:53:32,672 - Found credentials in environment variables.
+2019-12-06 11:53:32,672 - INFO - Found credentials in environment variables.
+2019-12-06 11:53:33,085 - API created
+2019-12-06 11:53:33,085 - INFO - API created
+2019-12-06 11:53:33,086 - Starting the Friending...
+2019-12-06 11:53:33,086 - INFO - Starting the Friending...
+2019-12-06 11:53:54,144 - Found credentials in environment variables.
+2019-12-06 11:53:54,144 - INFO - Found credentials in environment variables.
+2019-12-06 11:53:54,560 - API created
+2019-12-06 11:53:54,560 - INFO - API created
+2019-12-06 11:53:54,561 - Starting the Friending...
+2019-12-06 11:53:54,561 - INFO - Starting the Friending...
+2019-12-06 11:57:35,110 - Found credentials in environment variables.
+2019-12-06 11:57:35,110 - INFO - Found credentials in environment variables.
+2019-12-06 11:57:35,595 - API created
+2019-12-06 11:57:35,595 - INFO - API created
+2019-12-06 11:57:35,596 - Starting the Friending...
+2019-12-06 11:57:35,596 - INFO - Starting the Friending...
+2019-12-06 11:58:01,923 - Found credentials in environment variables.
+2019-12-06 11:58:01,923 - INFO - Found credentials in environment variables.
+2019-12-06 11:58:02,325 - API created
+2019-12-06 11:58:02,325 - INFO - API created
+2019-12-06 11:58:02,326 - Starting the Friending...
+2019-12-06 11:58:02,326 - INFO - Starting the Friending...
+2019-12-06 11:58:28,453 - Found credentials in environment variables.
+2019-12-06 11:58:28,453 - INFO - Found credentials in environment variables.
+2019-12-06 11:58:28,834 - API created
+2019-12-06 11:58:28,834 - INFO - API created
+2019-12-06 11:58:28,835 - Starting the Friending...
+2019-12-06 11:58:28,835 - INFO - Starting the Friending...
+2019-12-06 11:59:48,428 - Found credentials in environment variables.
+2019-12-06 11:59:48,428 - INFO - Found credentials in environment variables.
+2019-12-06 11:59:48,896 - API created
+2019-12-06 11:59:48,896 - INFO - API created
+2019-12-06 11:59:48,897 - Starting the Friending...
+2019-12-06 11:59:48,897 - INFO - Starting the Friending...
+2019-12-06 12:01:11,573 - Found credentials in environment variables.
+2019-12-06 12:01:11,573 - INFO - Found credentials in environment variables.
+2019-12-06 12:01:12,105 - API created
+2019-12-06 12:01:12,105 - INFO - API created
+2019-12-06 12:01:12,106 - Starting the Friending...
+2019-12-06 12:01:12,106 - INFO - Starting the Friending...
+2019-12-06 12:02:16,645 - Found credentials in environment variables.
+2019-12-06 12:02:16,645 - INFO - Found credentials in environment variables.
+2019-12-06 12:02:17,054 - API created
+2019-12-06 12:02:17,054 - INFO - API created
+2019-12-06 12:02:17,055 - Starting the Friending...
+2019-12-06 12:02:17,055 - INFO - Starting the Friending...
+2019-12-06 12:03:42,367 - Found credentials in environment variables.
+2019-12-06 12:03:42,367 - INFO - Found credentials in environment variables.
+2019-12-06 12:03:42,827 - API created
+2019-12-06 12:03:42,827 - INFO - API created
+2019-12-06 12:03:42,828 - Starting the Friending...
+2019-12-06 12:03:42,828 - INFO - Starting the Friending...
+2019-12-06 12:03:55,974 - Potential friends aquired...
+2019-12-06 12:03:55,974 - INFO - Potential friends aquired...
+2019-12-06 12:04:38,916 - Checking Unnamed: 0
+2019-12-06 12:04:38,916 - INFO - Checking Unnamed: 0
+2019-12-06 12:04:43,101 - User Unnamed: 0 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:04:43,101 - ERROR - User Unnamed: 0 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:04:45,908 - Unnamed: 0 does not exist!
+2019-12-06 12:04:45,908 - INFO - Unnamed: 0 does not exist!
+2019-12-06 12:04:53,278 - Checking 0
+2019-12-06 12:04:53,278 - INFO - Checking 0
+2019-12-06 12:04:54,025 - User 0 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:04:54,025 - ERROR - User 0 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:04:54,571 - 0 does not exist!
+2019-12-06 12:04:54,571 - INFO - 0 does not exist!
+2019-12-06 12:04:59,490 - Waiting...
+2019-12-06 12:04:59,490 - INFO - Waiting...
+2019-12-06 12:05:59,498 - Starting the Friending...
+2019-12-06 12:05:59,498 - INFO - Starting the Friending...
+2019-12-06 12:11:33,507 - Found credentials in environment variables.
+2019-12-06 12:11:33,507 - INFO - Found credentials in environment variables.
+2019-12-06 12:11:34,007 - API created
+2019-12-06 12:11:34,007 - INFO - API created
+2019-12-06 12:11:34,008 - Starting the Friending...
+2019-12-06 12:11:34,008 - INFO - Starting the Friending...
+2019-12-06 12:14:18,625 - Found credentials in environment variables.
+2019-12-06 12:14:18,625 - INFO - Found credentials in environment variables.
+2019-12-06 12:14:19,105 - API created
+2019-12-06 12:14:19,105 - INFO - API created
+2019-12-06 12:14:19,106 - Starting the Friending...
+2019-12-06 12:14:19,106 - INFO - Starting the Friending...
+2019-12-06 12:15:35,696 - Found credentials in environment variables.
+2019-12-06 12:15:35,696 - INFO - Found credentials in environment variables.
+2019-12-06 12:15:36,119 - API created
+2019-12-06 12:15:36,119 - INFO - API created
+2019-12-06 12:15:36,120 - Starting the Friending...
+2019-12-06 12:15:36,120 - INFO - Starting the Friending...
+2019-12-06 12:16:09,474 - Found credentials in environment variables.
+2019-12-06 12:16:09,474 - INFO - Found credentials in environment variables.
+2019-12-06 12:16:09,876 - API created
+2019-12-06 12:16:09,876 - INFO - API created
+2019-12-06 12:16:09,877 - Starting the Friending...
+2019-12-06 12:16:09,877 - INFO - Starting the Friending...
+2019-12-06 12:16:37,735 - Found credentials in environment variables.
+2019-12-06 12:16:37,735 - INFO - Found credentials in environment variables.
+2019-12-06 12:16:38,151 - API created
+2019-12-06 12:16:38,151 - INFO - API created
+2019-12-06 12:16:38,152 - Starting the Friending...
+2019-12-06 12:16:38,152 - INFO - Starting the Friending...
+2019-12-06 12:16:51,814 - Found credentials in environment variables.
+2019-12-06 12:16:51,814 - INFO - Found credentials in environment variables.
+2019-12-06 12:16:52,128 - API created
+2019-12-06 12:16:52,128 - INFO - API created
+2019-12-06 12:16:52,129 - Starting the Friending...
+2019-12-06 12:16:52,129 - INFO - Starting the Friending...
+2019-12-06 12:18:35,545 - Found credentials in environment variables.
+2019-12-06 12:18:35,545 - INFO - Found credentials in environment variables.
+2019-12-06 12:18:36,034 - API created
+2019-12-06 12:18:36,034 - INFO - API created
+2019-12-06 12:18:36,035 - Starting the Friending...
+2019-12-06 12:18:36,035 - INFO - Starting the Friending...
+2019-12-06 12:18:36,717 - Potential friends aquired...
+2019-12-06 12:18:36,717 - INFO - Potential friends aquired...
+2019-12-06 12:18:50,878 - Checking ,0
+2019-12-06 12:18:50,878 - INFO - Checking ,0
+2019-12-06 12:18:52,279 - User ,0 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:18:52,279 - ERROR - User ,0 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:18:53,098 - ,0 does not exist!
+2019-12-06 12:18:53,098 - INFO - ,0 does not exist!
+2019-12-06 12:18:59,102 - Checking 20ShadowFlame17
+2019-12-06 12:18:59,102 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:19:06,080 - User 20ShadowFlame17 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:19:06,080 - ERROR - User 20ShadowFlame17 does not exist. Response [{'code': 164, 'message': 'Target user not specified.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 164, 'message': 'Target user not specified.'}]
+2019-12-06 12:22:12,638 - 20ShadowFlame17 does not exist!
+2019-12-06 12:22:12,638 - INFO - 20ShadowFlame17 does not exist!
+2019-12-06 12:22:19,622 - Checking DarkKnightHoof
+2019-12-06 12:22:19,622 - INFO - Checking DarkKnightHoof
+2019-12-06 12:24:32,456 - Found credentials in environment variables.
+2019-12-06 12:24:32,456 - INFO - Found credentials in environment variables.
+2019-12-06 12:24:33,414 - API created
+2019-12-06 12:24:33,414 - INFO - API created
+2019-12-06 12:24:33,415 - Starting the Friending...
+2019-12-06 12:24:33,415 - INFO - Starting the Friending...
+2019-12-06 12:24:34,139 - Potential friends aquired...
+2019-12-06 12:24:34,139 - INFO - Potential friends aquired...
+2019-12-06 12:24:40,100 - Checking ,0
+2019-12-06 12:24:40,100 - INFO - Checking ,0
+2019-12-06 12:24:46,566 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:24:46,566 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:24:50,547 - ,0 does not exist!
+2019-12-06 12:24:50,547 - INFO - ,0 does not exist!
+2019-12-06 12:24:54,907 - Checking 20ShadowFlame17
+2019-12-06 12:24:54,907 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:30:51,317 - Found credentials in environment variables.
+2019-12-06 12:30:51,317 - INFO - Found credentials in environment variables.
+2019-12-06 12:30:51,821 - API created
+2019-12-06 12:30:51,821 - INFO - API created
+2019-12-06 12:30:51,822 - Starting the Friending...
+2019-12-06 12:30:51,822 - INFO - Starting the Friending...
+2019-12-06 12:30:52,620 - Potential friends aquired...
+2019-12-06 12:30:52,620 - INFO - Potential friends aquired...
+2019-12-06 12:31:05,827 - Checking ,0
+2019-12-06 12:31:05,827 - INFO - Checking ,0
+2019-12-06 12:31:16,693 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:31:16,693 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:31:17,467 - ,0 does not exist!
+2019-12-06 12:31:17,467 - INFO - ,0 does not exist!
+2019-12-06 12:31:18,855 - Checking 20ShadowFlame17
+2019-12-06 12:31:18,855 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:32:03,080 - Found credentials in environment variables.
+2019-12-06 12:32:03,080 - INFO - Found credentials in environment variables.
+2019-12-06 12:32:03,635 - API created
+2019-12-06 12:32:03,635 - INFO - API created
+2019-12-06 12:32:03,636 - Starting the Friending...
+2019-12-06 12:32:03,636 - INFO - Starting the Friending...
+2019-12-06 12:32:04,292 - Potential friends aquired...
+2019-12-06 12:32:04,292 - INFO - Potential friends aquired...
+2019-12-06 12:32:06,927 - Checking ,0
+2019-12-06 12:32:06,927 - INFO - Checking ,0
+2019-12-06 12:32:07,122 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:32:07,122 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:32:07,124 - ,0 does not exist!
+2019-12-06 12:32:07,124 - INFO - ,0 does not exist!
+2019-12-06 12:32:07,124 - Checking 20ShadowFlame17
+2019-12-06 12:32:07,124 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:32:23,292 - Found credentials in environment variables.
+2019-12-06 12:32:23,292 - INFO - Found credentials in environment variables.
+2019-12-06 12:32:23,712 - API created
+2019-12-06 12:32:23,712 - INFO - API created
+2019-12-06 12:32:23,713 - Starting the Friending...
+2019-12-06 12:32:23,713 - INFO - Starting the Friending...
+2019-12-06 12:32:24,445 - Potential friends aquired...
+2019-12-06 12:32:24,445 - INFO - Potential friends aquired...
+2019-12-06 12:32:25,143 - Checking ,0
+2019-12-06 12:32:25,143 - INFO - Checking ,0
+2019-12-06 12:32:25,340 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:32:25,340 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:32:25,341 - ,0 does not exist!
+2019-12-06 12:32:25,341 - INFO - ,0 does not exist!
+2019-12-06 12:32:25,342 - Checking 20ShadowFlame17
+2019-12-06 12:32:25,342 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:34:28,626 - Found credentials in environment variables.
+2019-12-06 12:34:28,626 - INFO - Found credentials in environment variables.
+2019-12-06 12:34:29,127 - API created
+2019-12-06 12:34:29,127 - INFO - API created
+2019-12-06 12:34:29,128 - Starting the Friending...
+2019-12-06 12:34:29,128 - INFO - Starting the Friending...
+2019-12-06 12:34:29,836 - Potential friends aquired...
+2019-12-06 12:34:29,836 - INFO - Potential friends aquired...
+2019-12-06 12:34:32,901 - Checking ,0
+2019-12-06 12:34:32,901 - INFO - Checking ,0
+2019-12-06 12:34:33,123 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:34:33,123 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:34:33,124 - ,0 does not exist!
+2019-12-06 12:34:33,124 - INFO - ,0 does not exist!
+2019-12-06 12:34:33,125 - Checking 20ShadowFlame17
+2019-12-06 12:34:33,125 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:34:44,616 - Found credentials in environment variables.
+2019-12-06 12:34:44,616 - INFO - Found credentials in environment variables.
+2019-12-06 12:34:45,013 - API created
+2019-12-06 12:34:45,013 - INFO - API created
+2019-12-06 12:34:45,014 - Starting the Friending...
+2019-12-06 12:34:45,014 - INFO - Starting the Friending...
+2019-12-06 12:34:45,638 - Potential friends aquired...
+2019-12-06 12:34:45,638 - INFO - Potential friends aquired...
+2019-12-06 12:34:50,217 - Checking ,0
+2019-12-06 12:34:50,217 - INFO - Checking ,0
+2019-12-06 12:34:50,486 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:34:50,486 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:34:50,490 - ,0 does not exist!
+2019-12-06 12:34:50,490 - INFO - ,0 does not exist!
+2019-12-06 12:34:52,579 - Checking 20ShadowFlame17
+2019-12-06 12:34:52,579 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:35:35,034 - Found credentials in environment variables.
+2019-12-06 12:35:35,034 - INFO - Found credentials in environment variables.
+2019-12-06 12:35:35,428 - API created
+2019-12-06 12:35:35,428 - INFO - API created
+2019-12-06 12:35:35,429 - Starting the Friending...
+2019-12-06 12:35:35,429 - INFO - Starting the Friending...
+2019-12-06 12:35:36,070 - Potential friends aquired...
+2019-12-06 12:35:36,070 - INFO - Potential friends aquired...
+2019-12-06 12:35:37,594 - Checking ,0
+2019-12-06 12:35:37,594 - INFO - Checking ,0
+2019-12-06 12:35:37,802 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:35:37,802 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:35:37,804 - ,0 does not exist!
+2019-12-06 12:35:37,804 - INFO - ,0 does not exist!
+2019-12-06 12:35:37,804 - Checking 20ShadowFlame17
+2019-12-06 12:35:37,804 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:36:37,280 - Found credentials in environment variables.
+2019-12-06 12:36:37,280 - INFO - Found credentials in environment variables.
+2019-12-06 12:36:37,755 - API created
+2019-12-06 12:36:37,755 - INFO - API created
+2019-12-06 12:36:37,756 - Starting the Friending...
+2019-12-06 12:36:37,756 - INFO - Starting the Friending...
+2019-12-06 12:36:38,449 - Potential friends aquired...
+2019-12-06 12:36:38,449 - INFO - Potential friends aquired...
+2019-12-06 12:36:39,338 - Checking ,0
+2019-12-06 12:36:39,338 - INFO - Checking ,0
+2019-12-06 12:36:39,550 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:36:39,550 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:36:39,552 - ,0 does not exist!
+2019-12-06 12:36:39,552 - INFO - ,0 does not exist!
+2019-12-06 12:36:39,552 - Checking 20ShadowFlame17
+2019-12-06 12:36:39,552 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:37:23,198 - Found credentials in environment variables.
+2019-12-06 12:37:23,198 - INFO - Found credentials in environment variables.
+2019-12-06 12:37:23,609 - API created
+2019-12-06 12:37:23,609 - INFO - API created
+2019-12-06 12:37:23,610 - Starting the Friending...
+2019-12-06 12:37:23,610 - INFO - Starting the Friending...
+2019-12-06 12:37:24,227 - Potential friends aquired...
+2019-12-06 12:37:24,227 - INFO - Potential friends aquired...
+2019-12-06 12:37:25,192 - Checking ,0
+2019-12-06 12:37:25,192 - INFO - Checking ,0
+2019-12-06 12:37:25,381 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:37:25,381 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:37:25,383 - ,0 does not exist!
+2019-12-06 12:37:25,383 - INFO - ,0 does not exist!
+2019-12-06 12:37:25,383 - Checking 20ShadowFlame17
+2019-12-06 12:37:25,383 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:40:50,608 - Found credentials in environment variables.
+2019-12-06 12:40:50,608 - INFO - Found credentials in environment variables.
+2019-12-06 12:40:51,151 - API created
+2019-12-06 12:40:51,151 - INFO - API created
+2019-12-06 12:40:51,152 - Starting the Friending...
+2019-12-06 12:40:51,152 - INFO - Starting the Friending...
+2019-12-06 12:40:51,877 - Potential friends aquired...
+2019-12-06 12:40:51,877 - INFO - Potential friends aquired...
+2019-12-06 12:40:54,483 - Checking ,0
+2019-12-06 12:40:54,483 - INFO - Checking ,0
+2019-12-06 12:42:14,335 - Found credentials in environment variables.
+2019-12-06 12:42:14,335 - INFO - Found credentials in environment variables.
+2019-12-06 12:42:14,845 - API created
+2019-12-06 12:42:14,845 - INFO - API created
+2019-12-06 12:42:14,846 - Starting the Friending...
+2019-12-06 12:42:14,846 - INFO - Starting the Friending...
+2019-12-06 12:42:15,546 - Potential friends aquired...
+2019-12-06 12:42:15,546 - INFO - Potential friends aquired...
+2019-12-06 12:42:19,197 - Checking ,0
+2019-12-06 12:42:19,197 - INFO - Checking ,0
+2019-12-06 12:42:19,415 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:42:19,415 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:42:19,417 - ,0 does not exist!
+2019-12-06 12:42:19,417 - INFO - ,0 does not exist!
+2019-12-06 12:42:19,417 - Checking 20ShadowFlame17
+2019-12-06 12:42:19,417 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:43:28,981 - Found credentials in environment variables.
+2019-12-06 12:43:28,981 - INFO - Found credentials in environment variables.
+2019-12-06 12:43:29,386 - API created
+2019-12-06 12:43:29,386 - INFO - API created
+2019-12-06 12:43:29,387 - Starting the Friending...
+2019-12-06 12:43:29,387 - INFO - Starting the Friending...
+2019-12-06 12:43:30,000 - Potential friends aquired...
+2019-12-06 12:43:30,000 - INFO - Potential friends aquired...
+2019-12-06 12:43:30,706 - Checking ,0
+2019-12-06 12:43:30,706 - INFO - Checking ,0
+2019-12-06 12:43:30,905 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:43:30,905 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:43:30,906 - ,0 does not exist!
+2019-12-06 12:43:30,906 - INFO - ,0 does not exist!
+2019-12-06 12:43:30,906 - Checking 20ShadowFlame17
+2019-12-06 12:43:30,906 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:44:20,488 - Found credentials in environment variables.
+2019-12-06 12:44:20,488 - INFO - Found credentials in environment variables.
+2019-12-06 12:44:20,891 - API created
+2019-12-06 12:44:20,891 - INFO - API created
+2019-12-06 12:44:20,892 - Starting the Friending...
+2019-12-06 12:44:20,892 - INFO - Starting the Friending...
+2019-12-06 12:44:21,590 - Potential friends aquired...
+2019-12-06 12:44:21,590 - INFO - Potential friends aquired...
+2019-12-06 12:44:23,929 - Checking ,0
+2019-12-06 12:44:23,929 - INFO - Checking ,0
+2019-12-06 12:44:24,123 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:44:24,123 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:44:24,124 - ,0 does not exist!
+2019-12-06 12:44:24,124 - INFO - ,0 does not exist!
+2019-12-06 12:44:24,124 - Checking 20ShadowFlame17
+2019-12-06 12:44:24,124 - INFO - Checking 20ShadowFlame17
+2019-12-06 12:44:40,790 - Making 20ShadowFlame17 my friend
+2019-12-06 12:44:40,790 - INFO - Making 20ShadowFlame17 my friend
+2019-12-06 12:44:47,917 - Muting 20ShadowFlame17
+2019-12-06 12:44:47,917 - INFO - Muting 20ShadowFlame17
+2019-12-06 12:46:39,077 - Checking DarkKnightHoof
+2019-12-06 12:46:39,077 - INFO - Checking DarkKnightHoof
+2019-12-06 12:46:39,578 - Making DarkKnightHoof my friend
+2019-12-06 12:46:39,578 - INFO - Making DarkKnightHoof my friend
+2019-12-06 12:46:39,867 - Muting DarkKnightHoof
+2019-12-06 12:46:39,867 - INFO - Muting DarkKnightHoof
+2019-12-06 12:46:40,423 - Checking aFallenWolf
+2019-12-06 12:46:40,423 - INFO - Checking aFallenWolf
+2019-12-06 12:46:40,816 - Making aFallenWolf my friend
+2019-12-06 12:46:40,816 - INFO - Making aFallenWolf my friend
+2019-12-06 12:46:41,114 - Muting aFallenWolf
+2019-12-06 12:46:41,114 - INFO - Muting aFallenWolf
+2019-12-06 12:46:41,654 - Checking nutzfux
+2019-12-06 12:46:41,654 - INFO - Checking nutzfux
+2019-12-06 12:46:42,037 - Making nutzfux my friend
+2019-12-06 12:46:42,037 - INFO - Making nutzfux my friend
+2019-12-06 12:46:42,599 - Muting nutzfux
+2019-12-06 12:46:42,599 - INFO - Muting nutzfux
+2019-12-06 12:46:43,147 - Checking AlekNeko
+2019-12-06 12:46:43,147 - INFO - Checking AlekNeko
+2019-12-06 12:46:43,538 - Making AlekNeko my friend
+2019-12-06 12:46:43,538 - INFO - Making AlekNeko my friend
+2019-12-06 12:46:43,847 - Muting AlekNeko
+2019-12-06 12:46:43,847 - INFO - Muting AlekNeko
+2019-12-06 12:46:44,442 - Checking AnaroseAperio
+2019-12-06 12:46:44,442 - INFO - Checking AnaroseAperio
+2019-12-06 12:46:44,838 - Making AnaroseAperio my friend
+2019-12-06 12:46:44,838 - INFO - Making AnaroseAperio my friend
+2019-12-06 12:46:45,091 - Muting AnaroseAperio
+2019-12-06 12:46:45,091 - INFO - Muting AnaroseAperio
+2019-12-06 12:46:45,588 - Checking @i4ng3l
+2019-12-06 12:46:45,588 - INFO - Checking @i4ng3l
+2019-12-06 12:46:46,009 - Making @i4ng3l my friend
+2019-12-06 12:46:46,009 - INFO - Making @i4ng3l my friend
+2019-12-06 12:46:46,293 - Muting @i4ng3l
+2019-12-06 12:46:46,293 - INFO - Muting @i4ng3l
+2019-12-06 12:46:46,838 - Checking PoncaDraws
+2019-12-06 12:46:46,838 - INFO - Checking PoncaDraws
+2019-12-06 12:46:47,258 - Making PoncaDraws my friend
+2019-12-06 12:46:47,258 - INFO - Making PoncaDraws my friend
+2019-12-06 12:46:47,581 - Muting PoncaDraws
+2019-12-06 12:46:47,581 - INFO - Muting PoncaDraws
+2019-12-06 12:46:48,171 - Checking Asilofen
+2019-12-06 12:46:48,171 - INFO - Checking Asilofen
+2019-12-06 12:46:48,588 - Making Asilofen my friend
+2019-12-06 12:46:48,588 - INFO - Making Asilofen my friend
+2019-12-06 12:46:48,876 - Muting Asilofen
+2019-12-06 12:46:48,876 - INFO - Muting Asilofen
+2019-12-06 12:46:49,425 - Checking Athari_P
+2019-12-06 12:46:49,425 - INFO - Checking Athari_P
+2019-12-06 12:46:49,827 - Making Athari_P my friend
+2019-12-06 12:46:49,827 - INFO - Making Athari_P my friend
+2019-12-06 12:46:50,140 - Muting Athari_P
+2019-12-06 12:46:50,140 - INFO - Muting Athari_P
+2019-12-06 12:46:50,687 - Checking ArchangelAzzy
+2019-12-06 12:46:50,687 - INFO - Checking ArchangelAzzy
+2019-12-06 12:46:51,117 - Making ArchangelAzzy my friend
+2019-12-06 12:46:51,117 - INFO - Making ArchangelAzzy my friend
+2019-12-06 12:46:51,469 - Muting ArchangelAzzy
+2019-12-06 12:46:51,469 - INFO - Muting ArchangelAzzy
+2019-12-06 12:46:51,985 - Checking indy_wolf
+2019-12-06 12:46:51,985 - INFO - Checking indy_wolf
+2019-12-06 12:46:52,390 - Making indy_wolf my friend
+2019-12-06 12:46:52,390 - INFO - Making indy_wolf my friend
+2019-12-06 12:46:52,680 - Muting indy_wolf
+2019-12-06 12:46:52,680 - INFO - Muting indy_wolf
+2019-12-06 12:46:53,240 - Checking bayou0baby0
+2019-12-06 12:46:53,240 - INFO - Checking bayou0baby0
+2019-12-06 12:46:53,442 - User bayou0baby0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:46:53,442 - ERROR - User bayou0baby0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 12:46:53,443 - bayou0baby0 does not exist!
+2019-12-06 12:46:53,443 - INFO - bayou0baby0 does not exist!
+2019-12-06 12:46:53,443 - Checking beardleby
+2019-12-06 12:46:53,443 - INFO - Checking beardleby
+2019-12-06 12:46:53,834 - Making beardleby my friend
+2019-12-06 12:46:53,834 - INFO - Making beardleby my friend
+2019-12-06 12:46:54,116 - Muting beardleby
+2019-12-06 12:46:54,116 - INFO - Muting beardleby
+2019-12-06 12:46:54,645 - Checking blaya
+2019-12-06 12:46:54,645 - INFO - Checking blaya
+2019-12-06 12:46:55,075 - Making blaya my friend
+2019-12-06 12:46:55,075 - INFO - Making blaya my friend
+2019-12-06 12:46:55,368 - Muting blaya
+2019-12-06 12:46:55,368 - INFO - Muting blaya
+2019-12-06 12:46:55,922 - Checking Tek_Otter
+2019-12-06 12:46:55,922 - INFO - Checking Tek_Otter
+2019-12-06 12:46:56,345 - Making Tek_Otter my friend
+2019-12-06 12:46:56,345 - INFO - Making Tek_Otter my friend
+2019-12-06 12:46:56,640 - Muting Tek_Otter
+2019-12-06 12:46:56,640 - INFO - Muting Tek_Otter
+2019-12-06 12:46:57,193 - Checking @JustinWuffyWags
+2019-12-06 12:46:57,193 - INFO - Checking @JustinWuffyWags
+2019-12-06 12:46:57,615 - Making @JustinWuffyWags my friend
+2019-12-06 12:46:57,615 - INFO - Making @JustinWuffyWags my friend
+2019-12-06 12:46:57,904 - Muting @JustinWuffyWags
+2019-12-06 12:46:57,904 - INFO - Muting @JustinWuffyWags
+2019-12-06 12:46:58,469 - Checking Bruvelighe
+2019-12-06 12:46:58,469 - INFO - Checking Bruvelighe
+2019-12-06 12:46:58,869 - Making Bruvelighe my friend
+2019-12-06 12:46:58,869 - INFO - Making Bruvelighe my friend
+2019-12-06 12:46:59,149 - Muting Bruvelighe
+2019-12-06 12:46:59,149 - INFO - Muting Bruvelighe
+2019-12-06 12:46:59,678 - Checking carissavixen
+2019-12-06 12:46:59,678 - INFO - Checking carissavixen
+2019-12-06 12:47:00,101 - Making carissavixen my friend
+2019-12-06 12:47:00,101 - INFO - Making carissavixen my friend
+2019-12-06 12:47:00,622 - Muting carissavixen
+2019-12-06 12:47:00,622 - INFO - Muting carissavixen
+2019-12-06 13:25:35,882 - Found credentials in environment variables.
+2019-12-06 13:25:35,882 - INFO - Found credentials in environment variables.
+2019-12-06 13:25:36,427 - API created
+2019-12-06 13:25:36,427 - INFO - API created
+2019-12-06 13:25:36,427 - Starting the Friending...
+2019-12-06 13:25:36,427 - INFO - Starting the Friending...
+2019-12-06 13:25:37,261 - Potential friends aquired...
+2019-12-06 13:25:37,261 - INFO - Potential friends aquired...
+2019-12-06 13:25:37,262 - Checking ,0
+2019-12-06 13:25:37,262 - INFO - Checking ,0
+2019-12-06 13:25:37,455 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 13:25:37,455 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 13:25:37,457 - ,0 does not exist!
+2019-12-06 13:25:37,457 - INFO - ,0 does not exist!
+2019-12-06 13:25:37,457 - Checking 20ShadowFlame17
+2019-12-06 13:25:37,457 - INFO - Checking 20ShadowFlame17
+2019-12-06 13:25:37,864 - Making 20ShadowFlame17 my friend
+2019-12-06 13:25:37,864 - INFO - Making 20ShadowFlame17 my friend
+2019-12-06 13:25:38,186 - Muting 20ShadowFlame17
+2019-12-06 13:25:38,186 - INFO - Muting 20ShadowFlame17
+2019-12-06 13:25:38,758 - Checking DarkKnightHoof
+2019-12-06 13:25:38,758 - INFO - Checking DarkKnightHoof
+2019-12-06 13:25:39,209 - Making DarkKnightHoof my friend
+2019-12-06 13:25:39,209 - INFO - Making DarkKnightHoof my friend
+2019-12-06 13:25:39,503 - Muting DarkKnightHoof
+2019-12-06 13:25:39,503 - INFO - Muting DarkKnightHoof
+2019-12-06 13:25:40,068 - Checking aFallenWolf
+2019-12-06 13:25:40,068 - INFO - Checking aFallenWolf
+2019-12-06 13:25:40,534 - Making aFallenWolf my friend
+2019-12-06 13:25:40,534 - INFO - Making aFallenWolf my friend
+2019-12-06 13:25:40,831 - Muting aFallenWolf
+2019-12-06 13:25:40,831 - INFO - Muting aFallenWolf
+2019-12-06 13:25:41,364 - Checking nutzfux
+2019-12-06 13:25:41,364 - INFO - Checking nutzfux
+2019-12-06 13:25:41,867 - Making nutzfux my friend
+2019-12-06 13:25:41,867 - INFO - Making nutzfux my friend
+2019-12-06 13:25:42,153 - Muting nutzfux
+2019-12-06 13:25:42,153 - INFO - Muting nutzfux
+2019-12-06 13:25:42,726 - Checking AlekNeko
+2019-12-06 13:25:42,726 - INFO - Checking AlekNeko
+2019-12-06 13:25:43,135 - Making AlekNeko my friend
+2019-12-06 13:25:43,135 - INFO - Making AlekNeko my friend
+2019-12-06 13:25:43,447 - Muting AlekNeko
+2019-12-06 13:25:43,447 - INFO - Muting AlekNeko
+2019-12-06 13:25:43,977 - Checking AnaroseAperio
+2019-12-06 13:25:43,977 - INFO - Checking AnaroseAperio
+2019-12-06 13:25:44,414 - Making AnaroseAperio my friend
+2019-12-06 13:25:44,414 - INFO - Making AnaroseAperio my friend
+2019-12-06 13:25:44,661 - Muting AnaroseAperio
+2019-12-06 13:25:44,661 - INFO - Muting AnaroseAperio
+2019-12-06 13:26:31,472 - Found credentials in environment variables.
+2019-12-06 13:26:31,472 - INFO - Found credentials in environment variables.
+2019-12-06 13:26:31,916 - API created
+2019-12-06 13:26:31,916 - INFO - API created
+2019-12-06 13:26:31,916 - Starting the Friending...
+2019-12-06 13:26:31,916 - INFO - Starting the Friending...
+2019-12-06 13:26:32,545 - Potential friends aquired...
+2019-12-06 13:26:32,545 - INFO - Potential friends aquired...
+2019-12-06 13:26:32,546 - Checking ,0
+2019-12-06 13:26:32,546 - INFO - Checking ,0
+2019-12-06 13:26:32,743 - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 13:26:32,743 - ERROR - User ,0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 13:26:32,745 - ,0 does not exist!
+2019-12-06 13:26:32,745 - INFO - ,0 does not exist!
+2019-12-06 13:26:32,745 - Checking 20ShadowFlame17
+2019-12-06 13:26:32,745 - INFO - Checking 20ShadowFlame17
+2019-12-06 13:26:33,147 - 20ShadowFlame17 already my friend!
+2019-12-06 13:26:33,147 - INFO - 20ShadowFlame17 already my friend!
+2019-12-06 13:26:33,148 - Checking DarkKnightHoof
+2019-12-06 13:26:33,148 - INFO - Checking DarkKnightHoof
+2019-12-06 13:26:33,611 - DarkKnightHoof already my friend!
+2019-12-06 13:26:33,611 - INFO - DarkKnightHoof already my friend!
+2019-12-06 13:26:33,612 - Checking aFallenWolf
+2019-12-06 13:26:33,612 - INFO - Checking aFallenWolf
+2019-12-06 13:26:34,036 - aFallenWolf already my friend!
+2019-12-06 13:26:34,036 - INFO - aFallenWolf already my friend!
+2019-12-06 13:26:34,036 - Checking nutzfux
+2019-12-06 13:26:34,036 - INFO - Checking nutzfux
+2019-12-06 13:26:34,493 - nutzfux already my friend!
+2019-12-06 13:26:34,493 - INFO - nutzfux already my friend!
+2019-12-06 13:26:34,493 - Checking AlekNeko
+2019-12-06 13:26:34,493 - INFO - Checking AlekNeko
+2019-12-06 13:26:35,040 - AlekNeko already my friend!
+2019-12-06 13:26:35,040 - INFO - AlekNeko already my friend!
+2019-12-06 13:26:35,040 - Checking AnaroseAperio
+2019-12-06 13:26:35,040 - INFO - Checking AnaroseAperio
+2019-12-06 13:26:35,534 - AnaroseAperio already my friend!
+2019-12-06 13:26:35,534 - INFO - AnaroseAperio already my friend!
+2019-12-06 13:26:35,534 - Checking @i4ng3l
+2019-12-06 13:26:35,534 - INFO - Checking @i4ng3l
+2019-12-06 13:26:35,948 - @i4ng3l already my friend!
+2019-12-06 13:26:35,948 - INFO - @i4ng3l already my friend!
+2019-12-06 13:26:35,948 - Checking PoncaDraws
+2019-12-06 13:26:35,948 - INFO - Checking PoncaDraws
+2019-12-06 13:26:36,399 - PoncaDraws already my friend!
+2019-12-06 13:26:36,399 - INFO - PoncaDraws already my friend!
+2019-12-06 13:26:36,399 - Checking Asilofen
+2019-12-06 13:26:36,399 - INFO - Checking Asilofen
+2019-12-06 13:26:36,823 - Asilofen already my friend!
+2019-12-06 13:26:36,823 - INFO - Asilofen already my friend!
+2019-12-06 13:26:36,824 - Checking Athari_P
+2019-12-06 13:26:36,824 - INFO - Checking Athari_P
+2019-12-06 13:26:37,251 - Athari_P already my friend!
+2019-12-06 13:26:37,251 - INFO - Athari_P already my friend!
+2019-12-06 13:26:37,251 - Checking ArchangelAzzy
+2019-12-06 13:26:37,251 - INFO - Checking ArchangelAzzy
+2019-12-06 13:26:37,674 - ArchangelAzzy already my friend!
+2019-12-06 13:26:37,674 - INFO - ArchangelAzzy already my friend!
+2019-12-06 13:26:37,675 - Checking indy_wolf
+2019-12-06 13:26:37,675 - INFO - Checking indy_wolf
+2019-12-06 13:26:38,088 - indy_wolf already my friend!
+2019-12-06 13:26:38,088 - INFO - indy_wolf already my friend!
+2019-12-06 13:26:38,088 - Checking bayou0baby0
+2019-12-06 13:26:38,088 - INFO - Checking bayou0baby0
+2019-12-06 13:26:38,277 - User bayou0baby0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 13:26:38,277 - ERROR - User bayou0baby0 does not exist. Response [{'code': 50, 'message': 'User not found.'}]
+Traceback (most recent call last):
+  File "/Users/cmesser/Development/Personal/twitter_bot/bots/followfollowers.py", line 36, in validate_friend
+    api.show_friendship(target_screen_name=user)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 250, in _call
+    return method.execute()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/tweepy/binder.py", line 233, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 50, 'message': 'User not found.'}]
+2019-12-06 13:26:38,277 - bayou0baby0 does not exist!
+2019-12-06 13:26:38,277 - INFO - bayou0baby0 does not exist!
+2019-12-06 13:26:38,277 - Checking beardleby
+2019-12-06 13:26:38,277 - INFO - Checking beardleby
+2019-12-06 13:26:38,700 - beardleby already my friend!
+2019-12-06 13:26:38,700 - INFO - beardleby already my friend!
+2019-12-06 13:26:38,700 - Checking blaya
+2019-12-06 13:26:38,700 - INFO - Checking blaya
+2019-12-06 13:26:39,182 - blaya already my friend!
+2019-12-06 13:26:39,182 - INFO - blaya already my friend!
+2019-12-06 13:26:39,183 - Checking Tek_Otter
+2019-12-06 13:26:39,183 - INFO - Checking Tek_Otter
+2019-12-06 13:26:39,641 - Tek_Otter already my friend!
+2019-12-06 13:26:39,641 - INFO - Tek_Otter already my friend!
+2019-12-06 13:26:39,642 - Checking @JustinWuffyWags
+2019-12-06 13:26:39,642 - INFO - Checking @JustinWuffyWags
+2019-12-06 13:26:40,085 - @JustinWuffyWags already my friend!
+2019-12-06 13:26:40,085 - INFO - @JustinWuffyWags already my friend!
+2019-12-06 13:26:40,086 - Checking Bruvelighe
+2019-12-06 13:26:40,086 - INFO - Checking Bruvelighe
+2019-12-06 13:26:40,516 - Bruvelighe already my friend!
+2019-12-06 13:26:40,516 - INFO - Bruvelighe already my friend!
+2019-12-06 13:26:40,517 - Checking carissavixen
+2019-12-06 13:26:40,517 - INFO - Checking carissavixen
+2019-12-06 13:26:40,968 - carissavixen already my friend!
+2019-12-06 13:26:40,968 - INFO - carissavixen already my friend!
+2019-12-06 13:26:40,968 - Checking Cathode_G
+2019-12-06 13:26:40,968 - INFO - Checking Cathode_G
+2019-12-06 13:26:41,412 - Making Cathode_G my friend
+2019-12-06 13:26:41,412 - INFO - Making Cathode_G my friend
+2019-12-06 13:26:41,725 - Muting Cathode_G
+2019-12-06 13:26:41,725 - INFO - Muting Cathode_G
+2019-12-06 13:26:42,323 - Checking ask
+2019-12-06 13:26:42,323 - INFO - Checking ask
+2019-12-06 13:26:42,808 - Making ask my friend
+2019-12-06 13:26:42,808 - INFO - Making ask my friend
+2019-12-06 13:26:43,179 - Muting ask
+2019-12-06 13:26:43,179 - INFO - Muting ask
+2019-12-06 13:26:43,780 - Checking CerbrusNL
+2019-12-06 13:26:43,780 - INFO - Checking CerbrusNL
+2019-12-06 13:26:44,290 - Making CerbrusNL my friend
+2019-12-06 13:26:44,290 - INFO - Making CerbrusNL my friend
+2019-12-06 13:26:44,589 - Muting CerbrusNL
+2019-12-06 13:26:44,589 - INFO - Muting CerbrusNL
+2019-12-06 13:26:45,135 - Checking NelwinMrcharrio
+2019-12-06 13:26:45,135 - INFO - Checking NelwinMrcharrio
+2019-12-06 13:26:45,603 - Making NelwinMrcharrio my friend
+2019-12-06 13:26:45,603 - INFO - Making NelwinMrcharrio my friend
+2019-12-06 13:26:45,918 - Muting NelwinMrcharrio
+2019-12-06 13:26:45,918 - INFO - Muting NelwinMrcharrio
+2019-12-06 13:26:46,457 - Checking Cheitan_Dog
+2019-12-06 13:26:46,457 - INFO - Checking Cheitan_Dog
+2019-12-06 13:26:47,037 - Making Cheitan_Dog my friend
+2019-12-06 13:26:47,037 - INFO - Making Cheitan_Dog my friend
+2019-12-06 13:26:47,320 - Muting Cheitan_Dog
+2019-12-06 13:26:47,320 - INFO - Muting Cheitan_Dog
+2019-12-06 13:26:47,864 - Checking bogpunk
+2019-12-06 13:26:47,864 - INFO - Checking bogpunk
+2019-12-06 13:26:48,277 - Making bogpunk my friend
+2019-12-06 13:26:48,277 - INFO - Making bogpunk my friend
+2019-12-06 13:26:48,558 - Muting bogpunk
+2019-12-06 13:26:48,558 - INFO - Muting bogpunk
+2019-12-06 13:26:49,086 - Checking vaisefox
+2019-12-06 13:26:49,086 - INFO - Checking vaisefox
+2019-12-06 13:26:49,535 - Making vaisefox my friend
+2019-12-06 13:26:49,535 - INFO - Making vaisefox my friend
+2019-12-06 13:26:49,830 - Muting vaisefox
+2019-12-06 13:26:49,830 - INFO - Muting vaisefox
+2019-12-06 13:26:50,425 - Checking coolkovu
+2019-12-06 13:26:50,425 - INFO - Checking coolkovu
+2019-12-06 13:26:50,971 - Making coolkovu my friend
+2019-12-06 13:26:50,971 - INFO - Making coolkovu my friend
+2019-12-06 13:26:51,476 - Muting coolkovu
+2019-12-06 13:26:51,476 - INFO - Muting coolkovu
