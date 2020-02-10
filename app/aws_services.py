@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 import pandas as pd
 
 from io import StringIO
-from bots.constants import AWSConstants, TwitterConstants
+from app.constants import AWSConstants, TwitterConstants
 
 import logging
 

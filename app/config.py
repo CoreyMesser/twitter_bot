@@ -1,8 +1,8 @@
-# tweepy-bots/bots/config.py
+# tweepy-app/app/config.py
 import tweepy
 import logging
 import os
-from bots.constants import TwitterConstants as twc
+from app.constants import TwitterConstants as twc
 
 logger = logging.getLogger()
 

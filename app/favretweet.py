@@ -1,6 +1,6 @@
 import tweepy
 import logging
-from bots.config import create_api
+from app.config import create_api
 import json
 
 logging.basicConfig(level=logging.INFO)

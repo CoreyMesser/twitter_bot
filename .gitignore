@@ -3,4 +3,4 @@ venv/
 
 .idea/
 
-bots/__pycache__/
+app/__pycache__/
